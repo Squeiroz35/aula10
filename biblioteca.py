@@ -44,4 +44,17 @@ def somar(*num):
         soma= soma+ num[x]
     print(soma)
 
+def ler_texto(texto):
+    cont=0
+    for x in range(len(texto)-1,-1,-1):
+        print(texto[x], end= "")
+        if texto[x] not in " ":
+            cont+=1
+    print(f"\n {cont}")
 
+def listarepetida(l):
+    novaLista=[]
+    for x in l:
+        if x not in novaLista:
+            novaLista.append(x)
+    print(novaLista)
