@@ -1,3 +1,4 @@
 from biblioteca import calculo
 
-calculo( "arroz",3, 7)
+resposta=calculo( "arroz",3, 7)
+print(resposta[0],resposta[1])

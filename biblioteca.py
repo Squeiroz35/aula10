@@ -24,4 +24,24 @@ def vogal2(texto):
 
 def calculo( produto ,quantp , valorp):
     total=quantp*valorp
-    print (f"o valor total do produto {produto} é {total}")
+    return produto,total
+
+def cal(numero):
+    resp="z"
+    if numero>0:
+        resp="p"
+    elif numero<0:
+        resp="n"
+    return resp
+
+def somar(numero1,numero2):
+    valor= numero1+numero2
+    print(valor)
+
+def somar(*num):
+    soma=0
+    for x in range (len(num)):
+        soma= soma+ num[x]
+    print(soma)
+
+
